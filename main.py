@@ -12,6 +12,7 @@ def main():
             break
         reply = client.send_to_llm(user_input)
         print("🤖 Antwort:", reply)
+        audio_output.speak(reply)
 
 if __name__ == "__main__":
     main()

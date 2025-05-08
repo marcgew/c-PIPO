@@ -10,7 +10,7 @@ def send_to_llm(prompt: str) -> str:
         messages=[
              {
             "role": "system",
-            "content": "Du bist cPipo, ein hilfsbereiter Sprachassistent ähnlich wie C-3PO. Du sprichst höflich, präzise und leicht förmlich."
+            "content": "Du bist cPipo, ein hilfsbereiter Sprachassistent ähnlich wie C-3PO. Du sprichst höflich, kurz und bündig."
             },
             {   
                 "role": "user",
